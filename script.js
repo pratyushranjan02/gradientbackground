@@ -9,6 +9,6 @@ input1.addEventListener("input", function() {
 
 input2.addEventListener("input", function() {
     body.style.background = "linear-gradient(to right, " + input1.value + ", " + input2.value + ")" ;
-    h3.appendChild(document.createTextNode("CSS Code is : linear-gradient(to right, " + input1.value + ", " + input2.value + ")"));
+    h3.appendChild(document.createTextNode("CSS Code is : background-image : linear-gradient(to right, " + input1.value + ", " + input2.value + ")"));
 })
 
