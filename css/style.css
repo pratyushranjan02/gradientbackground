@@ -1,0 +1,63 @@
+:root {
+   --shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 62.5%;
+   font-family: "Lato", sans-serif;
+}
+body {
+   color: rgba(0, 0, 0, 0.5);
+   background-image: linear-gradient(to right, #4025ee, #1ce730);
+}
+
+.header {
+   padding: 2rem;
+   border-bottom: 1px solid #1ce730;
+   box-shadow: var(--shadow);
+   margin-bottom: 3rem;
+}
+
+.logo-box {
+   height: 3rem;
+   width: 3rem;
+}
+
+.logo {
+   width: 100%;
+}
+h1 {
+   display: block;
+   color: black;
+   text-align: center;
+   font-family: "Times New Roman", Times, serif;
+   margin-top: 20px;
+   padding: 5px;
+   letter-spacing: 0.25em;
+}
+
+.colorinput {
+   margin: auto;
+   padding: 5px;
+   width: 10%;
+}
+
+input {
+   margin-right: 10px;
+   padding: 3px;
+   border: 2px grey solid;
+   border-radius: 5px;
+}
+
+h3 {
+   font-family: "Times New Roman", Times, serif;
+   color: black;
+   text-align: center;
+   font-weight: bold;
+}
