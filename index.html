@@ -10,25 +10,45 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
     <header class="header">
         <div class="logo-box">
             <img src="img/logo.svg" alt="logo" class="logo">
         </div>
+
+        <nav class="nav-bar">
+            <ul class="list">
+                <li class="item"><a href="#" class="link">Home</a></li>
+                <li class="item"><a href="#" class="link">Palettes</a></li>
+                <li class="item"><a href="#" class="link">Backgrounds</a></li>
+                <li class="item"><a href="#" class="link">About</a></li>
+            </ul>
+        </nav>
     </header>
+
     <main>
-        <section class="input-section">
-            <form class="input__form">
-                
-            </form>
+        <section class="background">
+
         </section>
-        <section class="display-section"></section>
+        <section class="main-section">
+            <div class="heading-container mb-large">
+                <h1 class="heading-primary">Generate Gradient Color</h1>
+            </div>
+            <div class="input-container mb-medium">
+                <form class="input-form">
+                    <div class="direction-box mb-small"></div>
+                    <div class="color-box mb-medium">
+                        <h2 class="heading-secondary mb-small">Enter Colors</h2>
+                        <div class="input-color-wrap"><input id="input1" class="input__color" type="color" name="color1" value="#c0c0c0"></div>
+                        <div class="input-color-wrap"><input id="input2" class="input__color" type="color" name="color2" value="#800000"></div>
+                    </div>
+                    <button type="submit" class="btn">Generate</button>
+                </form>
+            </div>
+            <div class="result-container mb-small"></div>
+        </section>
     </main>
-    <div class="colorinput">
-        <input id="input1" type="color" name="color1" value="#c0c0c0">
-        <input id="input2" type="color" name="color2" value="#800000">
-    </div>
-    <br>
-    <h3></h3>
+    
 
     <script src="js/script.js"></script>
 </body>
