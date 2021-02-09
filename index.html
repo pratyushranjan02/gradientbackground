@@ -35,17 +35,22 @@
                 <h1 class="heading-primary">Generate Gradient Color</h1>
             </div>
             <div class="input-container mb-medium">
-                <form class="input-form">
+                <form id="input-form">
                     <div class="direction-box mb-small"></div>
                     <div class="color-box mb-medium">
                         <h2 class="heading-secondary mb-small">Enter Colors</h2>
                         <div class="input-color-wrap"><input id="input1" class="input__color" type="color" name="color1" value="#c0c0c0"></div>
                         <div class="input-color-wrap"><input id="input2" class="input__color" type="color" name="color2" value="#800000"></div>
                     </div>
-                    <button type="submit" class="btn">Generate</button>
+                    <button class="btn">Generate</button>
                 </form>
             </div>
-            <div class="result-container mb-small"></div>
+            <div class="result-container mb-small">
+                <h4 class="result-span mb-small" >CSS Code</h4>
+                <div class="text-area">
+                    <h3 id="result">background-image : linear-gradient(to rignt, #fdjghh, #ghjkdg);</h3>
+                </div>
+            </div>
         </section>
     </main>
     

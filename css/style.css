@@ -19,6 +19,7 @@ html {
 }
 body {
    min-height: 100vh;
+   background: linear-gradient(to right bottom, rgb(243, 13, 70) 26%, rgb(206, 6, 56) 100%);
 }
 
 /* Utility classes styles */
@@ -37,7 +38,8 @@ body {
 /* normal elements styles */
 .header {
    padding: 2rem;
-   background-color: var(--color-black);
+   /* background-color: var(--color-black); */
+   background-image: linear-gradient(to right, #39bfd0, #0ed82f);
    color: var(--color-white);
    border-bottom: 3px solid var(--color-pink);
    box-shadow: var(--shadow);
@@ -95,7 +97,7 @@ main {
    border-radius: 0.5rem;
    border: 3px solid var(--color-pink);
    box-shadow: var(--shadow);
-   background-color: #fff;
+   background-image: linear-gradient(to right, #39bfd0, #0ed82f);
 }
 
 .heading-container {
@@ -118,10 +120,11 @@ main {
 .heading-secondary {
    font-size: 1.4rem;
    font-weight: 700;
-   color: var(--color-black);
+   color: var(--color-white);
+   text-shadow: var(--shadow);
 }
 
-.input-form {
+#input-form {
    text-align: center;
 }
 .input-color-wrap {
@@ -148,13 +151,35 @@ main {
 }
 
 .result-container {
-   height: 10rem;
+   height: 15rem;
    width: 80%;
    margin: 0 auto;
+   padding: 1.5rem 1rem;
+   text-align: center;
+   color: var(--color-white);
+   font-size: 1.2rem;
    background-color: var(--color-black);
    border-radius: 0.5rem;
    border: 3px solid var(--color-pink);
    box-shadow: var(--shadow);
+}
+
+.result-span {
+   color: #fff;
+   font-size: 1.4rem;
+}
+
+.text-area {
+   width: 60%;
+   margin: auto;
+   padding: 1rem 0.5rem;
+   background-color: #383b42;
+   border-radius: 1rem;
+   border-left: 2px solid var(--color-white);
+}
+
+#result {
+   word-spacing: 0.5rem;
 }
 
 .btn {
@@ -174,6 +199,11 @@ main {
    background-color: var(--color-pink);
    color: var(--color-white);
 }
+
+.btn:focus {
+   outline: none;
+}
+
 .btn:active {
    outline: none;
    transform: translateY(0);
