@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700;900&display=swap" rel="stylesheet">
     <title>Gradient Backround</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -19,18 +19,15 @@
         <nav class="nav-bar">
             <ul class="list">
                 <li class="item"><a href="#" class="link">Home</a></li>
-                <li class="item"><a href="#" class="link">Palettes</a></li>
-                <li class="item"><a href="#" class="link">Backgrounds</a></li>
-                <li class="item"><a href="#" class="link">About</a></li>
+                <li class="item"><a href="#" class="link link-2">Palettes</a></li>
+                <li class="item"><a href="#" class="link link-3">Backgrounds</a></li>
+                <li class="item"><a href="about.html" class="link link-4">About</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="background">
-
-        </section>
-        <section class="main-section">
+        <section class="main-section" id="main-section">
             <div class="heading-container mb-large">
                 <h1 class="heading-primary">Generate Gradient Color</h1>
             </div>
@@ -39,8 +36,8 @@
                     <div class="direction-box mb-small"></div>
                     <div class="color-box mb-medium">
                         <h2 class="heading-secondary mb-small">Enter Colors</h2>
-                        <div class="input-color-wrap"><input id="input1" class="input__color" type="color" name="color1" value="#c0c0c0"></div>
-                        <div class="input-color-wrap"><input id="input2" class="input__color" type="color" name="color2" value="#800000"></div>
+                        <div class="input-color-wrap"><div class="moving-border"></div><input id="input1" class="input__color" type="color" name="color1" value="#c0c0c0"></div>
+                        <div class="input-color-wrap"><div class="moving-border"></div><input id="input2" class="input__color" type="color" name="color2" value="#800000"></div>
                     </div>
                     <button class="btn">Generate</button>
                 </form>
